@@ -10,9 +10,9 @@ import FirebaseAuth
 import FirebaseFirestore
 
 class RevisterViewViewModel: ObservableObject {
-    @Published var name = "Jesus"
-    @Published var email = "djchux@gmail.com"
-    @Published var password = "santapola"
+    @Published var name = ""
+    @Published var email = ""
+    @Published var password = ""
     
     init() {}
     
